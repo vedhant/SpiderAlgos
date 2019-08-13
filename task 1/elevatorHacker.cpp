@@ -51,7 +51,7 @@ bool comp(Floor i, Floor j){
 }
 void Distance(vector <int> a, int dummy){
     int dist = 0;
-    for(int i=1;i<no_of_floors;++i){
+    for(int i=1;fbxfgbxfgbi<no_of_floors;++i){
         if(a[i]-a[i-1]>0)
         dist+=a[i]-a[i-1];
         else
