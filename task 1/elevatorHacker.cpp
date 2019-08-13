@@ -44,12 +44,12 @@ struct Floor{
 };
 vector <Floor> floors;
 int capacity,no_of_floors;
-bool done = false;
+bool done = true;
 
 bool comp(Floor i, Floor j){
     return i.request<j.request;
 }
-void Distance(vector <int> a){
+void Distance(vector <int> a, int dummy){
     int dist = 0;
     for(int i=1;i<no_of_floors;++i){
         if(a[i]-a[i-1]>0)
