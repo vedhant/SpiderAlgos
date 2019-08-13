@@ -44,7 +44,7 @@ struct Floor{
 };
 vector <Floor> floors;
 int capacity,no_of_floors;
-bool done = true;
+int done = 1;
 
 bool comp(Floor i, Floor j){
     return i.request<j.request;
